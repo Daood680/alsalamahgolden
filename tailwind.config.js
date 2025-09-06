@@ -1,0 +1,2 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = { content: ['./app/**/*.{js,ts,jsx,tsx}','./components/**/*.{js,ts,jsx,tsx}'], darkMode:'class', theme:{ extend:{ colors:{ gold:{ DEFAULT:'#D4AF37', dark:'#B8901F', light:'#E9CD6C' }, slateDeep:'#0F1419', slateSoft:'#182128' }, fontFamily:{ cairo:['Cairo','sans-serif'] }, boxShadow:{ card:'0 8px 24px -4px rgba(0,0,0,.25)' } } }, plugins:[] };

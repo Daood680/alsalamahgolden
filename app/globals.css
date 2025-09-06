@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body { direction: rtl; text-align: right; background: #0F1419; }
+body { font-feature-settings: 'kern'; }
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #121b22; }
+::-webkit-scrollbar-thumb { background: linear-gradient(#D4AF37,#B8901F); border-radius: 6px; }

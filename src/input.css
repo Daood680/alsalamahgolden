@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles for RTL support and Arabic typography */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 0.5rem;
+    font-size: 62.5%; /* 10px base */
+  }
+  
+  body {
+    font-family: 'Fira Sans', sans-serif;
+    direction: rtl;
+    text-align: right;
+  }
+  
+  [dir="rtl"] {
+    text-align: right;
+  }
+}
+
+/* Custom component styles */
+@layer components {
+  .btn-primary {
+    @apply inline-block px-8 py-3 text-lg border border-primary bg-primary rounded-2xl cursor-pointer text-center text-white transition-all duration-200;
+  }
+  
+  .btn-primary:hover {
+    @apply bg-transparent text-primary;
+  }
+  
+  .heading-main {
+    @apply text-4xl text-center text-secondary my-20;
+  }
+  
+  .heading-underline {
+    @apply inline-block border-b-2 border-secondary w-60 transition-all duration-200;
+  }
+  
+  .heading-underline:hover {
+    @apply w-96;
+  }
+}
+
+/* Legacy styles for backward compatibility */
+:root {
+  --min-color: #fff;
+  --sc-color: #3ec1d5;
+  --th-color: #333;
+}

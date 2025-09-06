@@ -1,0 +1,82 @@
+<!-- Navbar Component -->
+<header class="header fixed top-0 w-full bg-white shadow-lg z-50">
+    <div class="container mx-auto px-4">
+        <div class="flex items-center justify-between h-20">
+            <!-- Logo -->
+            <a href="index.html" class="logo flex items-center">
+                <img src="660754e9-7d54-4ac3-8a1a-c4757edf013e-removebg-preview.png" 
+                     alt="شركة السلامة الذهبية" 
+                     class="h-16 w-auto">
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:flex items-center space-x-8 rtl:space-x-reverse">
+                <ul class="flex items-center space-x-8 rtl:space-x-reverse">
+                    <li>
+                        <a href="#home" class="nav-link text-secondary hover:text-primary transition-colors duration-200 font-medium text-lg">
+                            الرئيسية
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link text-secondary hover:text-primary transition-colors duration-200 font-medium text-lg">
+                            من نحن
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#services" class="nav-link text-secondary hover:text-primary transition-colors duration-200 font-medium text-lg">
+                            آلية العمل
+                        </a>
+                    </li>
+                    <li>
+                        <a href="projects.html" class="nav-link text-secondary hover:text-primary transition-colors duration-200 font-medium text-lg">
+                            المشاريع
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav-link text-secondary hover:text-primary transition-colors duration-200 font-medium text-lg">
+                            التواصل
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden flex flex-col items-center justify-center w-8 h-8 space-y-1">
+                <div class="hamburger-line w-6 h-0.5 bg-secondary transition-all duration-300"></div>
+                <div class="hamburger-line w-6 h-0.5 bg-secondary transition-all duration-300"></div>
+                <div class="hamburger-line w-6 h-0.5 bg-secondary transition-all duration-300"></div>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <nav id="mobile-menu" class="md:hidden hidden bg-white border-t border-gray-200">
+            <ul class="py-4 space-y-2">
+                <li>
+                    <a href="#home" class="block px-4 py-2 text-secondary hover:text-primary hover:bg-gray-50 transition-all duration-200 font-medium">
+                        الرئيسية
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="block px-4 py-2 text-secondary hover:text-primary hover:bg-gray-50 transition-all duration-200 font-medium">
+                        من نحن
+                    </a>
+                </li>
+                <li>
+                    <a href="#services" class="block px-4 py-2 text-secondary hover:text-primary hover:bg-gray-50 transition-all duration-200 font-medium">
+                        آلية العمل
+                    </a>
+                </li>
+                <li>
+                    <a href="projects.html" class="block px-4 py-2 text-secondary hover:text-primary hover:bg-gray-50 transition-all duration-200 font-medium">
+                        المشاريع
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="block px-4 py-2 text-secondary hover:text-primary hover:bg-gray-50 transition-all duration-200 font-medium">
+                        التواصل
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
